@@ -67,9 +67,19 @@ Github is a cloud-based platform to store, share, and collaborate on Git reposit
 | Clone     | Copying remote repo to your computer |
 
 ---
+### **2. Fork This Repository**
+Before you clone the project, you should fork it.
+Forking creates your own copy of the original repository under your Github account so you can make changes safely
 
-### **2. Clone This Repository**
-Open your terminal and run:
+Steps to fork:
+1. In the top right corner of this repository, click "Fork"
+2. Select your Github account as the destination
+3. Github will create a copy of the repo under https://github.com/YOUR-USERNAME/hackathon-workshop
+
+You're ready to go!
+
+### **3. Clone This Repository**
+Once your fork is created, copy your own repo's URL (Not the original one):
 ```bash
 git clone https://github.com/YOUR-USERNAME/hackathon-workshop.git
 cd hackathon-workshop
@@ -77,7 +87,7 @@ cd hackathon-workshop
 
 ---
 
-### **3. Explore the Toy Webpage**
+### **4. Explore the Toy Webpage**
 Navigate to the `toy-website` folder:
 ```bash
 cd toy-website
@@ -134,7 +144,7 @@ git pull origin main
    git push origin feature-new-section
    ```
 4. Open a Pull Request on GitHub to merge back into `main`.
-
+5. Now you should see the your commit message and changes you made on the main branch
 ---
 
 ## Common Git Errors
